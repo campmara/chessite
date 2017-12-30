@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Chessumo</title>
+  <meta name="description" content="">
+  <meta name="author" content="Murray Campbell">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/now" type="text/css"/>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Load the Paper.js library -->
+  <script type="text/javascript" src="js/paper.min.js"></script>
+  <!-- Define inlined PaperScript associate it with myCanvas -->
+  <script type="text/paperscript" src="js/pieces.js" canvas="canvas"></script>
+
+</head>
+
+<body class="home">
+  <canvas id="canvas" resize></canvas>
+
+  <img src="images/bishop.png" id="bishop" style="display: none;">
+  <img src="images/king.png" id="king" style="display: none;">
+  <img src="images/knight.png" id="knight" style="display: none;">
+  <img src="images/pawn.png" id="pawn" style="display: none;">
+  <img src="images/queen.png" id="queen" style="display: none;">
+  <img src="images/rook.png" id="rook" style="display: none;">
+
+
+  <div class="header">
+    <p>CHESSUMO</p>
+    <!--<h2>FINALLY, CHESS YOU CAN PLAY ALONE</h2>-->
+    <!--<h2>A GAME OF CHESS FOR THE AGES</h2>-->
+    <!--<h2>LIKE COMING HOME TO CHESS AFTER A LONG, HARD DAY</h2>-->
+    <!--<h2>I CAN'T STOP PLAYING</h2>-->
+    <!--<h2>ONE-PLAYER CHESS FOR THE MODERN ERA</h2>-->
+    <!--<h2>THEME AND VARIATION ON CHESS</h2>-->
+    <!--<h2>PUTTING THE "MIND" BACK INTO MIND-GAMES</h2>-->
+    <!--<h2>A ONE-PLAYER ENDLESS CHESS PUZZLE</h2>-->
+    <!--<h2>A GAME OF CHESS FOR MODERNITY</h2>-->
+    <h2>A CHESS PUZZLE FOR ONE PLAYER</h2>
+  </div>
+
+  <div class="board">
+    <img src="images/board.png" id="board">
+  </div>
+
+  <div class="appstore">
+    <a href="https://itunes.apple.com/us/app/chessumo/id1265923253?ls=1&mt=8" target="_blank"><img src="images/appstore.png" id="appstore"></a>
+  </div>
+
+  <div class="info">
+    <a href="presskit">PRESSKIT</a>
+    <a href="https://www.twitter.com/chessumo">TWITTER</a>
+    <a href="mailto:chessumo@gmail.com">CONTACT ME</a>
+  </div>
+
+  <div class="footer">
+    <a href="http://www.murrayirc.com">Ⓒ 2017 Murray LLC</a>
+  </div>
+</body>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</html>
