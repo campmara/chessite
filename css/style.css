@@ -1,0 +1,121 @@
+:root {
+  --col_grey1: #E5E9F0;
+  --col_grey2: #BDC1C6;
+  --col_grey3: #A2A2A8;
+  --col_grey4: #4E4F52;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: var(--col_grey1);
+    font-family: "NowRegular";
+}
+
+canvas[resize] {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  background-color: var(--col_grey2);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 7vh;
+}
+
+.footer {
+  background-color: var(--col_grey3);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.content {
+  max-width: 60%;
+  text-align: left;
+  padding-top: 5vh;
+  padding-bottom: 20vh;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  padding-left: 0.75vw;
+  padding-right: 0.75vw;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.board {
+  position: fixed;
+  top: 25vh;
+  width: 100%;
+  text-align: center;
+}
+
+#board {
+  width: 20vw;
+  pointer-events: none;
+}
+
+.appstore {
+  position: fixed;
+  top: 70vh;
+  width: 100%;
+  text-align: center;
+}
+
+#appstore {
+  width: 20vw;
+}
+
+p {
+  color: var(--col_grey3);
+  font-size: 4em;
+  margin-top: 0.67em;
+  margin-bottom: 0em;
+}
+
+h2 {
+  color: var(--col_grey2);
+  font-size: 1.25em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+h3 {
+  color: var(--col_grey4);
+  font-size: 2em;
+}
+
+h4 {
+  color: var(--col_grey3);
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+#name {
+  color: var(--col_grey2);
+  letter-spacing: 0.05em;
+  padding-left: 0;
+  padding-right: 0;
+}
